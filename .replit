@@ -1,3 +1,8 @@
 run = ["python", "2.py"]
 
 entrypoint = "2.py"
+
+[nix]
+
+[nix.channel]
+channel = "stable-22_05"
