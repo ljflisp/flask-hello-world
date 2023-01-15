@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+    pkgs.redis
+    pkgs.redis
     pkgs.sysstat
     pkgs.rsync
     pkgs.tcpdump

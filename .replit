@@ -1,8 +1,3 @@
-run = ["python", "2.py"]
+run = ["python", "mydemoapp.py"]
 
-entrypoint = "2.py"
-
-[nix]
-
-[nix.channel]
-channel = "stable-22_05"
+entrypoint = "mydemoapp.py"
